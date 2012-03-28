@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>fileTriggers</key>
+        <dict>
+            <key>devel</key>
+            <string>config\environments\development.rb</string>
+            <key>passwor</key>
+            <string>app\controllers\password_resets_controller.rb</string>
+            <key>password_rese</key>
+            <string>app\views\user_mailer\password_reset.text.erb</string>
+            <key>rout</key>
+            <string>config\routes.rb</string>
+            <key>user_</key>
+            <string>app\mailers\user_mailer.rb</string>
+        </dict>
+    </dict>
+</plist>
