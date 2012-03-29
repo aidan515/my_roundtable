@@ -9,17 +9,23 @@
        <a class="brand" href="#">My Roundtable</a>
        <div class="nav-collapse">
          <ul class="nav">
-           <li><%= link_to "Edit profile", edit_user_path %></li>
-           <li><%= link_to "Inbox" %></li>
+           
+           
            <li><%= link_to "Choose city" %></li>
            <li><%= link_to "Create roundtable" %></li>
-		   <li><%= link_to "Account", show_user_path %>
+		   
 		   <% if current_user %>
-				
+			<li><%= link_to "Edit profile", edit_user_path %></li>
+			<li><%= link_to "Account", show_user_path %>		
 			<li> <%= link_to "Log out", logout_path %>
-		<% else %>
+			<li><%= link_to "Inbox" %></li>	
+		<% elsif  current_venue %>
+			<li> <%= link_to "Log out", venue_logout_path %>
+		<% else %>		
 			<li><%= link_to "Sign Up", signup_path %></li> 
-			<li><%= link_to "Login", login_path %></li>
+			<li><%= link_to "User Login", login_path %></li>
+			<li><%= link_to "Venue Signup", venue_signup_path %></li>
+			<li><%= link_to "Venue Login", venue_login_path %></li>			
 			<% end %>
          </ul>
        </div>

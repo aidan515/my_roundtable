@@ -1,14 +1,23 @@
 MyRoundtable::Application.routes.draw do
   
+
+
+ # get "venue_password_resets/new"
+
   get 'signup', to: 'users#new', as: 'signup'
   get 'login', to: 'sessions#new', as: 'login'
   get 'logout', to: 'sessions#destroy', as: 'logout'
   get 'edit_user', to: 'users#edit', as: 'edit_user'
   get 'show_user', to: 'users#show', as: 'show_user'
+  get 'venue_signup', to: 'venues#new', as: 'venue_signup'
+  get 'venue_edit', to: 'venues#edit', as: 'venue_edit'
+  get 'venue_login', to: 'venue_sessions#new', as: 'venue_login'
+  get 'venue_logout', to: 'venue_sessions#destroy', as: 'venue_logout'
   resources :users
   resources :sessions
+  resources :venues
   resources :password_resets
-  
+  resources :venue_password_resets
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
