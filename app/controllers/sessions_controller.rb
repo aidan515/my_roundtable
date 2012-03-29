@@ -3,9 +3,9 @@ class SessionsController < ApplicationController
   end
   
   def create
-    user = User.find_by_email(params[:email])
-    if user && user.authenticate(params[:password])
-    	if params[:remember_me]
+    user = User.find_by_email(params[:session][:email])
+    if user && user.authenticate(params[:session][:password])
+    	if params[:session][:remember_me]
     		cookies.permanent[:auth_token]= user.auth_token   #create a permanent cookie
     	else
     		cookies[:auth_token]= user.auth_token	

@@ -1,0 +1,11 @@
+<%= simple_form_for @user, :html => { :class => 'form-vertical' }, :html => { :multipart => true } do |f| %>
+
+<%= f.input :email %>
+<%= f.input :password %>
+<%= f.input :password_confirmation %>
+<%= f.file_field :image %>
+<%= f.input :location %>
+<%= f.input :work %> 
+<%= f.button :submit %>
+
+<% end %>
