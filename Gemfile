@@ -17,6 +17,7 @@ group :test do
 	gem "capybara"
 	#gem "guard-rspec"
 	gem "launchy"
+	gem 'spork', '0.9.0.rc8'
 end	
 
 # Gems used only for assets and not required
