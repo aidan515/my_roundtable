@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Topic:</b>
+  <%= @roundtable.topic %>
+</p>
+
+<p>
+  <b>Number of attendees:</b>
+  <%= @roundtable.number_of_attendees %>
+</p>
+
+<p>
+  <b>Dinner on:</b>
+  <%= @roundtable.dinner_on %>
+</p>
+
+<p>
+  <b>Kick off:</b>
+  <%= @roundtable.kick_off %>
+</p>
+
+
+<%= link_to 'Edit', edit_roundtable_path(@roundtable) %> |
+<%= link_to 'Back', roundtables_path %>

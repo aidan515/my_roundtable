@@ -1,0 +1,29 @@
+<h1>Listing roundtables</h1>
+
+<table>
+  <tr>
+    <th>Topic</th>
+    <th>Number of attendees</th>
+    <th>Date</th>
+    <th>Kick off</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @roundtables.each do |roundtable| %>
+  <tr>
+    <td><%= roundtable.topic %></td>
+    <td><%= roundtable.number_of_attendees %></td>
+    <td><%= roundtable.date %></td>
+    <td><%= roundtable.kick_off %></td>
+    <td><%= link_to 'Show', roundtable %></td>
+    <td><%= link_to 'Edit', edit_roundtable_path(roundtable) %></td>
+    <td><%= link_to 'Destroy', roundtable, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Roundtable', new_roundtable_path %>

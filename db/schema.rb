@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120329150651) do
+ActiveRecord::Schema.define(:version => 20120401201302) do
+
+  create_table "roundtables", :force => true do |t|
+    t.string   "topic"
+    t.integer  "number_of_attendees"
+    t.time     "kick_off"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.date     "dinner_on"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email"
