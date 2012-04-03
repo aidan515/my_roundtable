@@ -9,6 +9,7 @@ MyRoundtable::Application.routes.draw do
   resources :sessions
   resources :password_resets
   
+  #set default_url_options = {:host => "www.example.com"}
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

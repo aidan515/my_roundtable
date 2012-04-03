@@ -1,0 +1,97 @@
+# Logfile created on 2012-04-03 23:04:42 +0100 by logger.rb/31641
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /password_resets/new with {} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: POST /password_resets with {"utf8"=>"✓", "email"=>"foo1@example.com", "commit"=>"Reset Password"} and HTTP headers {"HTTP_REFERER"=>"/password_resets/new"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/password_resets"}

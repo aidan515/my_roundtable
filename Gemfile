@@ -13,8 +13,11 @@ end
 
 group :test do
 	gem 'rspec-rails', '2.8.0'
-	gem 'webrat', '0.7.1'
+#	gem 'webrat', '0.7.1'
 	gem 'spork', '0.9.0.rc8'
+	gem "launchy"
+	gem "factory_girl_rails"
+	gem "capybara"
 end	
 
 # Gems used only for assets and not required
