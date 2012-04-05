@@ -1,12 +1,19 @@
 MyRoundtable::Application.routes.draw do
   
+  
+
+  get 'v_login', to: 'v_sessions#new', as: 'v_login'
+  get 'v_logout', to: 'v_sessions#destroy', as: 'v_logout'
   get 'signup', to: 'users#new', as: 'signup'
   get 'login', to: 'sessions#new', as: 'login'
   get 'logout', to: 'sessions#destroy', as: 'logout'
   get 'edit_user', to: 'users#edit', as: 'edit_user'
   get 'show_user', to: 'users#show', as: 'show_user'
+  get 'venue_signup', to: 'venues#new', as: 'venue_signup'
   resources :users
+  resources :venues
   resources :sessions
+  resources :v_sessions
   resources :password_resets
   
   #set default_url_options = {:host => "www.example.com"}
