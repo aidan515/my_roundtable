@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120401201302) do
+ActiveRecord::Schema.define(:version => 20120403100055) do
+
+  create_table "requests", :force => true do |t|
+    t.string   "content"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "requests", ["user_id", "created_at"], :name => "index_requests_on_user_id_and_created_at"
 
   create_table "roundtables", :force => true do |t|
     t.string   "topic"
@@ -20,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20120401201302) do
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
     t.date     "dinner_on"
+    t.integer  "user_id"
   end
 
   create_table "users", :force => true do |t|
@@ -48,9 +58,9 @@ ActiveRecord::Schema.define(:version => 20120401201302) do
     t.string   "postcode"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
-    t.string   "auth_token"
     t.string   "password_reset_token"
     t.datetime "password_reset_sent_at"
+    t.string   "venue_auth_token"
   end
 
 end

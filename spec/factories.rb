@@ -10,6 +10,6 @@ Factory.define :roundtable do |f|
   f.time Time.now
 end  
 
-Factory.define :venue do |f|
+
   
   

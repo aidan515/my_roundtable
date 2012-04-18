@@ -3,6 +3,8 @@ class User < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   has_secure_password
   validates_presence_of :email, :password, :on => :create
+  has_many :requests
+  has_many :roundtables
   before_create { generate_token(:auth_token) }
 
   def send_password_reset

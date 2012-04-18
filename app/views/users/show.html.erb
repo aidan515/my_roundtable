@@ -1,7 +1,17 @@
-<%= image_tag @user.image_url(:thumb).to_s %><br />
+<% if @user.image_url %>
+<p><%= image_tag @user.image_url(:thumb).to_s %></p>
+<% else %>
+<%= image_tag ("No-picture.jpg") %>
+<% end %>
 <p>What's your name?</p>
 <%= @user.first_name %> <%= @user.family_name %> 
 <p>Where are you from?</p>
 <%= @user.location %>
 <p>Where do you work?</p>
 <%= @user.work %>
+<p><%= link_to "Create roundtable", new_roundtable_path %></p>
+User ID = <%= @user.id %><br/>
+<% unless @user.roundtables.empty? %>
+Rountables = <%= render @user.roundtables %><br/>
+
+<% end %>

@@ -4,6 +4,10 @@ MyRoundtable::Application.routes.draw do
 
   
 
+  get "requests/create"
+
+  get "requests/destroy"
+
  # get "venue_password_resets/new"
 
   get 'signup', to: 'users#new', as: 'signup'
@@ -17,8 +21,12 @@ MyRoundtable::Application.routes.draw do
   get 'venue_logout', to: 'venue_sessions#destroy', as: 'venue_logout'
   get 'new_roundtable', to: 'roundtables#new', as: 'new_roundtable'
   get 'edit_roundtable', to: 'roundtables#edit', as: 'edit_roundtable'
+  get 'new_request', to: 'requests#new', as: 'new_request'
+  get 'show_venue', to: 'venues#show', as: 'show_venue'
+  resources :requests
   resources :users
   resources :sessions
+  resources :venue_sessions
   resources :venues
   resources :roundtables
   resources :password_resets

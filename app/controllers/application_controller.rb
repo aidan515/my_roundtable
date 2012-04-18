@@ -9,7 +9,7 @@ private
   helper_method :current_user
   
   def current_venue
-    @current_venue ||=Venue.find_by_auth_token!(cookies[:auth_token]) if (cookies[:auth_token])
+    @current_venue ||=Venue.find_by_venue_auth_token!(cookies[:venue_auth_token]) if (cookies[:venue_auth_token])
   end
   helper_method :current_venue
   

@@ -1,7 +1,6 @@
 <%= simple_form_for @roundtable, :html => { :class => 'form-horizontal' } do |f| %>
 
 <%= f.error_notification %>
-
 <%= f.input :topic %>
 <%= f.input :number_of_attendees, :as => :radio_buttons, :collection => 4..8 %>
 <%= f.input :kick_off, :label => "Time", :as => :time, :minute_step => 5 %>

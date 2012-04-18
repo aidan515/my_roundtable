@@ -1,44 +1,11 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <b>Name:</b>
-  <%= @venue.name %>
-</p>
-
-<p>
-  <b>Password digest:</b>
-  <%= @venue.password_digest %>
-</p>
-
-<p>
-  <b>Email:</b>
-  <%= @venue.email %>
-</p>
-
-<p>
-  <b>Image:</b>
-  <%= @venue.image %>
-</p>
-
-<p>
-  <b>Address1:</b>
-  <%= @venue.address1 %>
-</p>
-
-<p>
-  <b>Address2:</b>
-  <%= @venue.address2 %>
-</p>
-
-<p>
-  <b>City:</b>
-  <%= @venue.city %>
-</p>
-
-<p>
-  <b>Postcode:</b>
-  <%= @venue.postcode %>
-</p>
+<%= image_tag @venue.image_url(:thumb).to_s %><br />
+<p>Name</p>
+<%= @venue.name %> 
+<p>Address</p>
+<%= @user.city %>
+<p>Postcode</p>
+<%= @user.postcode %>
 
 
 <%= link_to 'Edit', edit_venue_path(@venue) %> |

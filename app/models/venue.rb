@@ -3,7 +3,7 @@ class Venue < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   has_secure_password
   validates_presence_of :name, :email, :password, :password_confirmation, :image, :address1, :city, :postcode
-  before_create { generate_token(:auth_token) }   # will happen for every venue 
+  before_create { generate_token(:venue_auth_token) }   # will happen for every venue 
 
   def send_password_reset
     generate_token(:password_reset_token)

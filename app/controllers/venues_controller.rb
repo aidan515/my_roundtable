@@ -40,18 +40,15 @@ class VenuesController < ApplicationController
 
   # POST /venues
   # POST /venues.json
+  
+  
   def create
     @venue = Venue.new(params[:venue])
-
-    respond_to do |format|
-      if @venue.save
-        venue_session[:venue_id] = @venue.id
-        format.html { redirect_to @venue, notice: 'Venue was successfully created.' }
-        format.json { render json: @venue, status: :created, location: @venue }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @venue.errors, status: :unprocessable_entity }
-      end
+    if @venue.save
+    #  venue_session[:venue_id] = @venue.id
+      redirect_to root_url, notice: 'Venue was successfully created.' 
+    else
+      format.html { render action: "new" }
     end
   end
 

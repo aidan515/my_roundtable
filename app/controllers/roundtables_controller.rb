@@ -3,18 +3,10 @@ class RoundtablesController < ApplicationController
   # GET /roundtables.json
   def index
     @roundtables = Roundtable.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @roundtables }
-    end
   end
-
-  # GET /roundtables/1
-  # GET /roundtables/1.json
+  
   def show
     @roundtable = Roundtable.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @roundtable }
@@ -24,12 +16,8 @@ class RoundtablesController < ApplicationController
   # GET /roundtables/new
   # GET /roundtables/new.json
   def new
-    @roundtable = Roundtable.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @roundtable }
-    end
+  @roundtable = Roundtable.new(:user_id => params[:user_id])
+  #@roundtable = current_user.roundtables.build(:user_id => params[:user_id])
   end
 
   # GET /roundtables/1/edit
@@ -40,8 +28,7 @@ class RoundtablesController < ApplicationController
   # POST /roundtables
   # POST /roundtables.json
   def create
-    @roundtable = Roundtable.new(params[:roundtable])
-
+    @roundtable = current_user.roundtables.build(params[:roundtable])
     respond_to do |format|
       if @roundtable.save
         format.html { redirect_to @roundtable, notice: 'Roundtable was successfully created.' }
